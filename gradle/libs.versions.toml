@@ -1,0 +1,82 @@
+[versions]
+agp = "8.5.2"
+gson = "2.10.1"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinParcelizeRuntime = "2.0.0"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+kotlinx-coroutines = "1.7.3"
+
+# Platform Science SDK library versions
+connectionsdk = "1.2.9"
+deeplinklib = "1.5.1"
+doccapsdk = "2.3.5"
+hossdk = "2.5.9"
+ipclib = "2.6.12"
+knoxsvclib = "2.2.4"
+material = "1.12.0"
+orionextservicelib = "3.4.0"
+pushnotificationsdk = "1.3.1"
+pscoreromsdk = "2.7.9"
+pscoresdk = "2.9.7"
+timber = "5.0.1"
+vehicledatasdk = "1.0.4"
+wfsdk = "2.5.10"
+uikit-core = "1.0.10"
+kxprotobuf = "1.3.2"
+appcompat = "1.7.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlin-parcelize-runtime = { module = "org.jetbrains.kotlin:kotlin-parcelize-runtime", version.ref = "kotlinParcelizeRuntime" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+kotlin-kx-protobuf = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version.ref = "kxprotobuf"}
+
+# Platform Science SDK libraries
+pltsci-connectionsdk = { module = "com.pltsci:connectionsdk", version.ref = "connectionsdk"}
+pltsci-deeplinklib = { module = "com.pltsci:deeplinklib", version.ref = "deeplinklib"}
+pltsci-doccapsdk = { module = "com.pltsci:doccapsdk", version.ref = "doccapsdk"}
+pltsci-hossdk = { module = "com.pltsci:hossdk", version.ref = "hossdk"}
+pltsci-ipclib = { module = "com.pltsci:ipclib", version.ref = "ipclib" }
+pltsci-knoxsvclib = { module = "com.pltsci:knoxsvclib", version.ref = "knoxsvclib"}
+pltsci-orionextservicelib = { module = "com.pltsci:orionextservicelib", version.ref = "orionextservicelib"}
+pltsci-pscoreromsdk = { module = "com.pltsci:pscoreromsdk", version.ref = "pscoreromsdk"}
+pltsci-pscoresdk = { module = "com.pltsci:pscoresdk", version.ref = "pscoresdk"}
+pltsci-pushnotificationsdk = { module = "com.pltsci:pushnotificationsdk", version.ref = "pushnotificationsdk"}
+pltsci-uikit = { module = "com.pltsci.uikit:core", version.ref = "uikit-core"}
+pltsci-vehicledatasdk = { module = "com.pltsci:vehicledatasdk", version.ref = "vehicledatasdk"}
+pltsci-wfsdk = { module = "com.pltsci:wfsdk", version.ref = "wfsdk"}
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
